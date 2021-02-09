@@ -1,0 +1,82 @@
+﻿<html>
+<head><title>MAT GENERATOR</title>
+<style type="text/css">
+body,td,th {
+background-color: #000000;
+color: #00ff00;
+font-family: 'Neucha', cursive;
+font-size: 14pt;
+}
+body {
+background-color: #000000;
+}
+a:link {
+color: #FFFF00;
+text-decoration: none;
+}
+a:visited {
+color: #FFFF00;
+text-decoration: none;
+}
+a:hover {
+color: #F00;
+text-decoration: none;
+}
+a:active {
+color: #FFFF00;
+text-decoration: none;
+}
+</style></head>
+
+<body><center>
+
+
+<table width="290" border="0" bordercolor="#00FF00" bgcolor="#000000">
+<tr><td>
+<SCRIPT language="JavaScript">
+<!-- Скрываем от старых браузеров
+function random(max_random) {
+var min_random = 0;
+max_random++;
+var range = max_random - min_random;
+var n=Math.floor(Math.random()*range) + min_random;
+return n;
+}
+// Конец сокрытия --></SCRIPT>
+<SCRIPT>
+document.write("<br><center><p><A href='matgen.html'><b>—> СГЕНЕРИРОВАТЬ <—</b></a></p></center>")
+
+glasn = new Array ("а","е","ё","и","о","э","ю","я")
+for(i=0;i<20;i++)
+{
+beg = new Array ("Ху","Сука","Сук","Пизд","Ебан","Жоп","Хуе","Гавно","Пизда","Моча","Лох","Бля","Рото","Хер","Сперма","Пися","Дырка",
+"Вагина","Онал","Жопо","Ебло","Члено","Сосу","Нахуй","Похуй","Сексо","Трахо","Трах","Секс","Пипи","Сися","Сиська","Сасок","Саско","Пида","Педо","Гандоно",
+"Чмо","Кака","Нахуй","Хуебло","Йоб","Йобнуто","Нехуя","Бляхо","Еблано","Блея","Ябло","Целка","Черножоп","Батва","Ебало","Гандоно","Хуибло","Хуёбло","Черночлен",
+"Писа","Педик","Гомо","Трахан","Жопопис","Врот","Яйца","Яйцо","Ёб","Зелёноху","Дура","Сцук","Выеб","Дроче","Дрочил","Шалаво","Мокропис","Ёбо","Наху","Ибло","Членоеб",
+"Членодрач","Писятык","Пиздатык","Членолиз","Ебал","Идиото","Ебан","Рако","Пиздро","Уёбн","Трахнуто","Пиздочлен","Ябло","Сися","Пиздроидн","Хуёв")
+ser = new Array ("сос","лиз","ябля","пидр","еблан","он","ёб","тык","уй","ид","орн","ел","глот","хуй","")
+kon = new Array ("он","их","ин","ив","ас","ат","орн","ер","льф",
+"орн","бо","ир","ень","эль","иэль","ли","олиз","уст","ст","аг","уг","хер","дор","тор","ен","ир","мир","хуень","об",
+"ил","ах","онд","ид","ир","орл","иль","ед","ель","як","ер","")
+var name=beg[random(92)]+ser[random(14)]+kon[random(40)]
+var nn=random(name.length)-2
+for(n=0;n<nn;n++)
+{
+var pos=random(name.length)+2
+if (pos<name.length) 
+{
+var nam=name.substring(0,pos-1)
+var nm=name.substring(pos,name.length)
+var name=nam+nm
+};
+}
+document.write(name)
+document.write(" | ")
+}
+</SCRIPT> 
+
+</td></tr>
+</table>
+
+
+</center></body><html>
